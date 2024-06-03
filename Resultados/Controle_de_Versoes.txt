@@ -1,0 +1,5 @@
+Controle de Versões
+V1 - DQN
+V2 - PER
+V3 - PER Indices
+V4 - PER Trajetória 
