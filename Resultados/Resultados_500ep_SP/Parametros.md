@@ -1,24 +1,22 @@
 # Parâmetros
-num_cells=[64, 64]
+## Ambiente
+env = TransformedEnv(GymEnv("CartPole-v1"), StepCounter())
+## Rede Neural
+value_mlp = MLP(out_features=env.action_spec.shape[-1], num_cells=[64, 64])
+## Política de Exploração
+exploration_module = EGreedyModule(env.action_spec, annealing_num_steps=345, eps_init=1, eps_end = 0.001)
+## Coletor de dados e buffer de reprodução
+init_rand_steps = 200
 
-annealing_num_steps=345, eps_init=1, eps_end = 0.001
+frames_per_batch = 200 
 
-lr=0.001
+optim_steps = 10  
 
-SoftUpdate(loss, eps=0.99)
+buffer_size = 100_000  
+## Módulo de perda e otimizador
+optim = Adam(loss.parameters(), lr=0.001)
 
-
-### Linhas de Inicialização
-total_count = 0     # Inicializa um contador para o número total de passos coletados.
-
-total_episodes = 0  # Inicializa um contador para o número total de episódios completados.
-
+updater = SoftUpdate(loss, eps=0.99)
+## Parâmetro de Treinamento
 episodes = 5000     # Define o número total de episódios a serem treinados.
-
-X1 = None
-
-score_list_1 = []
-
-score_list_mean_100 = []
-
-t0 = time.time()    # Armazena o tempo de início do treinamento para calcular a duração total no final.
+criterio_parada = NONE
