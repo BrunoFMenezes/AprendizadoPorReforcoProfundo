@@ -1,5 +1,10 @@
-Controle de Versões
-V1 - DQN
-V2 - PER
-V3 - PER Indices
-V4 - PER Trajetória 
+Controle de Versões / Responsável
+V1 - DQN                                                                           (Bruno)
+V2 - PER                                                                           (Bruno)
+V3 - PER Ultimo Indice                                                             (Nicolas)
+V4 - PER Melhores Indices                                                          (Nicolas)
+V5 - PER Ultima Trajetória                                                         (Gabriel)
+V6 - PER Melhores Trajetórias                                                      (Gabriel)
+V6.1 - PER Melhores Trajetórias Plus [Atualização direta na lista de prioridades]  (Gabriel)
+V6.2 - PER Melhores Trajetórias Plus [Troca do Array por Deque]                    (Gabriel)
+V7 - PER Piores Trajetórias                                                        (Gabriel)
