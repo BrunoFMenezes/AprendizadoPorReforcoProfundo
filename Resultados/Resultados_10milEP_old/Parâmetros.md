@@ -19,7 +19,7 @@ buffer_size = 100_000
 rb = ReplayBuffer(storage=LazyTensorStorage(buffer_size), sampler=PrioritizedSampler(max_capacity=buffer_size, alpha=0.6, beta=0.4))                    
 
 ## Módulo de perda e otimizador
-optim = Adam(loss.parameters(), lr=0.01)
+optim = Adam(loss.parameters(), lr=0.02)
 updater = SoftUpdate(loss, eps=0.99)
 
 ## Parâmetro de Treinamento
