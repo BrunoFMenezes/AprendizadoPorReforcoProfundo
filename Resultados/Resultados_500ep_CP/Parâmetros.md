@@ -26,5 +26,4 @@ optim = Adam(loss.parameters(), lr=0.001)
 
 updater = SoftUpdate(loss, eps=0.99)
 ## Parâmetro de Treinamento
-episodes = 5000     # Define o número total de episódios a serem treinados.
-criterio_parada = NONE
+criterio_parada --> brake_500 = 5
