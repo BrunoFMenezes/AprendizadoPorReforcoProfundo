@@ -19,8 +19,6 @@ C1_CartPole-v1_RN-64-64_EG-345-1-0.001_CD-200-200-10_RB-100k-0.6-1.0_O-0.001_AR-
 |V4 - PER Melhores Indices    |                                                      (Nicolas)|
 |V5 - PER Ultima Trajetória   |                                                      (Gabriel)|
 |V6 - PER Melhores Trajetórias    |                                                  (Gabriel)|
-|V6.1 - PER Melhores Trajetórias Plus [Atualização direta na lista de prioridades] | (Gabriel)|
-|V6.2 - PER Melhores Trajetórias Plus [Troca do Array por Deque] |                   (Gabriel)|
 |V7 - PER Piores Trajetórias  |                                                      (Gabriel)|
 
 # Canvas dos Resultados
