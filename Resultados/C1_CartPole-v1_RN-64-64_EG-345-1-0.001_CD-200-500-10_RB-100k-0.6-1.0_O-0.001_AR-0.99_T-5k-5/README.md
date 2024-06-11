@@ -8,7 +8,7 @@ exploration_module = EGreedyModule(env.action_spec, annealing_num_steps=345, eps
 ## Coletor de dados
 init_rand_steps = 200
 
-frames_per_batch = 200 
+frames_per_batch = 500
 
 optim_steps = 10  
 ## Buffer de Reprodução
