@@ -11,7 +11,7 @@ init_rand_steps = 200
 frames_per_batch = 200 
 
 optim_steps = 10  
-## buffer de reprodução
+## Buffer de Reprodução
 buffer_size = 100_000  
 
 V1: 
