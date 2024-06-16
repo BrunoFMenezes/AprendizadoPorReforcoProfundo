@@ -15,11 +15,12 @@ C1_CartPole-v1_RN-64-64_EG-345-1-0.001_CD-200-200-10_RB-100k-0.6-1.0_O-0.001_AR-
 |--------|-------------|
 |V1 - DQN |                                                                          (Bruno)|
 |V2 - PER    |                                                                       (Bruno)|
+|V2.1 - PER Priorização Média    |                                                                       (Bruno)|
 |V3 - PER Ultimo Indice |                                                            (Nicolas)|
-|V4 - PER Melhores Indices    |                                                      (Nicolas)|
-|V5 - PER Ultima Trajetória   |                                                      (Gabriel)|
-|V6 - PER Melhores Trajetórias    |                                                  (Gabriel)|
-|V7 - PER Piores Trajetórias  |                                                      (Gabriel)|
+|V3.1 - PER Melhores Indices    |                                                      (Nicolas)|
+|V4 - PER Ultima Trajetória   |                                                      (Gabriel)|
+|V4.1 - PER Melhores Trajetórias    |                                                  (Gabriel)|
+|V4.2 - PER Piores Trajetórias  |                                                      (Gabriel)|
 
 # Canvas dos Resultados
 https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
