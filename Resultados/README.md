@@ -18,6 +18,7 @@ C1_CartPole-v1_RN-64-64_EG-345-1-0.001_CD-200-200-10_RB-100k-0.6-1.0_O-0.001_AR-
 |V2.1 - PER Priorização Média    |                                                                       (Bruno)|
 |V3 - PER Ultimo Indice |                                                            (Nicolas)|
 |V3.1 - PER Melhores Indices    |                                                      (Nicolas)|
+|V3.2 - PER Piores Indices    |                                                      (Nicolas)|
 |V4 - PER Ultima Trajetória   |                                                      (Gabriel)|
 |V4.1 - PER Melhores Trajetórias    |                                                  (Gabriel)|
 |V4.2 - PER Piores Trajetórias  |                                                      (Gabriel)|
