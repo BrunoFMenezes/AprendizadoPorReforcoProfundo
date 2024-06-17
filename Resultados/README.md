@@ -15,7 +15,8 @@ C1_CartPole-v1_RN-64-64_EG-345-1-0.001_CD-200-200-10_RB-100k-0.6-1.0_O-0.001_AR-
 |--------|-------------|
 |V1 - DQN |                                                                          (Bruno)|
 |V2 - PER    |                                                                       (Bruno)|
-|V2.1 - PER Priorização Média    |                                                                       (Bruno)|
+|V2.1 - PER Priorização Média    |                                                   (Bruno)|
+|V2.2 - PER Priorização Somada    |                                                  (Bruno)|
 |V3 - PER Ultimo Indice |                                                            (Nicolas)|
 |V3.1 - PER Melhores Indices    |                                                      (Nicolas)|
 |V3.2 - PER Piores Indices    |                                                      (Nicolas)|
