@@ -32,9 +32,11 @@ C1_CartPole-v1_RN-64-64_EG-345-1-0.001_CD-200-200-10_RB-100k-0.6-1.0_O-0.001_AR-
 |V4.2 - PER Piores Trajetórias ⏳ |              (Bruno)⏳| (Gabriel)⏳|(Kaio)⏳|(Nicolas)⏳|
 
 # Canvas dos Resultados
+## Todos os Resultados
+https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ## Cenário 1
-https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+[https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGJA15Z420/CQufhGA7qcrAZ9j9b6NG-g/edit?utm_content=DAGJA15Z420&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 ## Cenário 2
-https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+[[https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGJA1rY6_E/K8vEPqL3kU2OjhzZSO7GRg/edit?utm_content=DAGJA1rY6_E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 ## Cenário 3
-https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+[https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGJA7aSFgU/iOe9vP931dhriXHqU_nEyg/edit?utm_content=DAGJA7aSFgU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
