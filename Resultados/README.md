@@ -26,7 +26,7 @@ C1_CartPole-v1_RN-64-64_EG-345-1-0.001_CD-200-200-10_RB-100k-0.6-1.0_O-0.001_AR-
 |V3.2 - PER Melhores Indices (Semi-Trajetória 2)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
 |V3.3 - PER Piores Indices (Max)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
 |V3.4 - PER Piores Indices (Semi-Trajetória 1)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
-|V3.4 - PER Piores Indices (Semi-Trajetória 2)  🆗  |              (Bruno)⏳| (Gabriel)⏳|(Kaio)⏳|(Nicolas)⏳|
+|V3.4 - PER Piores Indices (Semi-Trajetória 2)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
 |V4 - PER Ultima Trajetória ⏳  |                (Bruno)⏳| (Gabriel)⏳|(Kaio)⏳|(Nicolas)⏳|
 |V4.1 - PER Melhores Trajetórias ⏳   |          (Bruno)⏳| (Gabriel)⏳|(Kaio)⏳|(Nicolas)⏳|
 |V4.2 - PER Piores Trajetórias ⏳ |              (Bruno)⏳| (Gabriel)⏳|(Kaio)⏳|(Nicolas)⏳|
