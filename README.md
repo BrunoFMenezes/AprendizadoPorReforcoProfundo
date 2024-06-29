@@ -1,6 +1,6 @@
 # Aprendizado Por Reforço Profundo
 ## Ebook DQN usando TorchRL
-<Clique aqui para ir para o diretório do Ebook 📚>(https://github.com/BrunoFMenezes/prompts-recipe-to-create-a-ebook/tree/main)
+[Clique aqui para ir para o diretório do Ebook 📚](https://github.com/BrunoFMenezes/prompts-recipe-to-create-a-ebook/tree/main)
 ## Classes de ReplayBuffer da TorchRL
 https://github.com/pytorch/rl/blob/main/torchrl/data/replay_buffers/replay_buffers.py#L901
 ## Classes de Samplers da TorchRL
