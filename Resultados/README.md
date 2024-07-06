@@ -21,12 +21,12 @@ C1_CartPole-v1_RN-64-64_EG-345-1-0.001_CD-200-200-10_RB-100k-0.6-1.0_O-0.001_AR-
 |V2.2 - PER Priorização Somada  🆗  |            (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
 |V3 - PER Últimos Indice (Priorização 1 vez)🆗 |                      (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)🆗|
 |V3 - PER Últimos Indice (Priorização 2 vezes)🆗 |                      (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)🆗|
-|V3.1 - PER Melhores Indices (Max)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
-|V3.2 - PER Melhores Indices (Semi-Trajetória 1)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
-|V3.2 - PER Melhores Indices (Semi-Trajetória 2)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
-|V3.3 - PER Piores Indices (Max)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
-|V3.4 - PER Piores Indices (Semi-Trajetória 1)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
-|V3.4 - PER Piores Indices (Semi-Trajetória 2)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
+|V3.1 - PER Melhores Indices (Max)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳8|
+|V3.2 - PER Melhores Indices (Semi-Trajetória 1)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)🆗|
+|V3.2 - PER Melhores Indices (Semi-Trajetória 2)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳9|
+|V3.3 - PER Piores Indices (Max)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)🆗|
+|V3.4 - PER Piores Indices (Semi-Trajetória 1)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)🆗|
+|V3.4 - PER Piores Indices (Semi-Trajetória 2)  🆗  |              (Bruno)⏳| (Gabriel)🆗|(Kaio)⏳|(Nicolas)🆗|
 |V4 - PER Ultima Trajetória ⏳  |                (Bruno)⏳| (Gabriel)⏳|(Kaio)⏳|(Nicolas)⏳|
 |V4.1 - PER Melhores Trajetórias ⏳   |          (Bruno)⏳| (Gabriel)⏳|(Kaio)⏳|(Nicolas)⏳|
 |V4.2 - PER Piores Trajetórias ⏳ |              (Bruno)⏳| (Gabriel)⏳|(Kaio)⏳|(Nicolas)⏳|
