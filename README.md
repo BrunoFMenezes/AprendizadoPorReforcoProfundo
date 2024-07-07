@@ -8,7 +8,7 @@ https://github.com/pytorch/rl/blob/main/torchrl/data/replay_buffers/samplers.py
 ### Tutorial Prioritazy
 https://pytorch.org/rl/stable/reference/generated/torchrl.data.replay_buffers.PrioritizedSampler.html?highlight=prioritizedsampler#torchrl.data.replay_buffers.PrioritizedSampler
 ## Melhorias para as Simulações
-1. Nas próximas simulações, adotar a relação 80-20 (Pareto). Pontuação acima de 80% é boa e abaixo de 20% é ruim. Atualmente, usa-se 90-10.
+1. Nas próximas simulações, adotar a relação 80-20 (Pareto). Pontuação acima de 80% é boa e abaixo de 20% é ruim. Atualmente, usa-se 60-10, mas deveria ser proporcional e complementar, ou seja, 90-10, para evitar muitas "classes".
 ## Ideias de Novas Versões
 1. PER Buffer Duplo: começa usando um buffer e gera outro buffer com as melhores/piores trajetórias(experiências), após 50% do treinamento migra para o outro buffer e continua armanzenando nos dois buffer, um com as trajetórias normais e outro só com as melhores/piores trajetórias.
 2. [ COMPLETE A LISTA]
