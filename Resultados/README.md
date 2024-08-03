@@ -8,7 +8,10 @@ Exemplo: C1_CartPole-v1_RN-64-64_EG-345-1-0.001_CD-200-200-10_RB-100k-0.6-1.0_O-
 * C2: Simulação com Y critério de parada com X episódios.
 * C3: Simulação com critérios de parada condicionais, no qual sempre que atingir pontuação máxima, o agente é avaliado, caso apresente desempenho satisfatório(e.g 99%), encerra-se o treinamento; caso contrário volta para o loop de treinamento com avaliação recorrente.
 
-# Controle de Versões 
+# Controle de Versões
+
+## Por Episódios
+
 | Versão | 🆗 |⏳|⏳|⏳|
 |--------|-------------|-----|-----|-----|
 | Episódios                                             | 5k 🆗 |         10k |     15k |       20k          |
@@ -29,14 +32,41 @@ Exemplo: C1_CartPole-v1_RN-64-64_EG-345-1-0.001_CD-200-200-10_RB-100k-0.6-1.0_O-
 |V4.1 - PER Melhores Trajetórias 🆗   |                 (Bruno)🆗| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
 |V4.2 - PER Piores Trajetórias 🆗 |                     (Bruno)🆗| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
 
+## Alteração da Rede com 10 k de episódios
+
+| Versão                            | ⏳       | 🆗         | ⏳        | ⏳        | ⏳        | ⏳       |
+|-----------------------------------|----------|-------------|------------|-----------|------------|----------|
+| Tamanho da Rede                   | 128-128⏳| 64-64🆗    | 32-32⏳   | 16-16⏳   | 8-8⏳     | 4-4⏳    |
+|V1 - DQN                           | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V2 - PER (RB)                      | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V2 - PER (PRB)                     | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V2.1 - PER Média                   | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V2.2 - PER Somada                  | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V3 - PER Últimos Indice (1 vez)    | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V3 - PER Últimos Indice (2 vezes)  | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V3.1 - PER Melhores Indices (Max)  | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V3.2 - PER Melhores Indices (ST 1) | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V3.2 - PER Melhores Indices (ST 2) | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V3.3 - PER Piores Indices (Max)    | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V3.4 - PER Piores Indices (ST 1)   | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V3.4 - PER Piores Indices (ST 2)   | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V4 - PER Ultima Trajetória         | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V4.1 - PER Melhores Trajetórias    | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+|V4.2 - PER Piores Trajetórias      | (Bruno)⏳| (Gabriel)🆗|(Gabriel)⏳|(Gabriel)⏳|(Gabriel)⏳| (Bruno)⏳|
+
 # Canvas dos Resultados
+
 ## Todos os Resultados
 https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ## Cenário 1
 [https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGJA15Z420/CQufhGA7qcrAZ9j9b6NG-g/edit?utm_content=DAGJA15Z420&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Cenário 2
 [[https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGJA1rY6_E/K8vEPqL3kU2OjhzZSO7GRg/edit?utm_content=DAGJA1rY6_E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Cenário 3
 [https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content=DAGGtRS_IIk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGJA7aSFgU/iOe9vP931dhriXHqU_nEyg/edit?utm_content=DAGJA7aSFgU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Site para baixar pastas do GitHub
 https://downgit.github.io/
