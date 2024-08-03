@@ -14,45 +14,45 @@ Exemplo: C1_CartPole-v1_RN-64-64_EG-345-1-0.001_CD-200-200-10_RB-100k-0.6-1.0_O-
 
 | Versão | 🆗 |⏳|⏳|⏳|
 |--------|-------------|-----|-----|-----|
-| Episódios                                             | 5k 🆗 |         10k |     15k |       20k          |
-|V1 - DQN 🆗|                                          (Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V2 - PER (ReplayBuffer) 🆗   |                        (Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V2 - PER (PrioritazedReplayBuffer) 🆗   |             (Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V2.1 - PER Priorização Média  🆗  |                   (Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V2.2 - PER Priorização Somada  🆗  |                  (Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V3 - PER Últimos Indice (Priorização 1 vez)🆗 |       (Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V3 - PER Últimos Indice (Priorização 2 vezes)🆗 |     (Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V3.1 - PER Melhores Indices (Max)  🆗  |              (Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V3.2 - PER Melhores Indices (Semi-Trajetória 1)  🆗  |(Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V3.2 - PER Melhores Indices (Semi-Trajetória 2)  🆗  |(Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V3.3 - PER Piores Indices (Max)  🆗  |                (Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V3.4 - PER Piores Indices (Semi-Trajetória 1)  🆗  |  (Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V3.4 - PER Piores Indices (Semi-Trajetória 2)  🆗  |  (Bruno)🆗| (Gabriel)🆗🆗|(Kaio)🆗|(Nicolas)🆗|
-|V4 - PER Ultima Trajetória 🆗  |                       (Bruno)🆗| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
-|V4.1 - PER Melhores Trajetórias 🆗   |                 (Bruno)🆗| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
-|V4.2 - PER Piores Trajetórias 🆗 |                     (Bruno)🆗| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
+| Episódios                                             | 5k🆗  |         10k |     15k |       20k          |
+|V1 - DQN 🆗|                                          (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V2 - PER (ReplayBuffer) 🆗   |                        (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V2 - PER (PrioritazedReplayBuffer) 🆗   |             (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V2.1 - PER Priorização Média  🆗  |                   (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V2.2 - PER Priorização Somada  🆗  |                  (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V3 - PER Últimos Indice (Priorização 1 vez)🆗 |       (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V3 - PER Últimos Indice (Priorização 2 vezes)🆗 |     (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V3.1 - PER Melhores Indices (Max)  🆗  |              (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V3.2 - PER Melhores Indices (Semi-Trajetória 1)  🆗  |(Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V3.2 - PER Melhores Indices (Semi-Trajetória 2)  🆗  |(Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V3.3 - PER Piores Indices (Max)  🆗  |                (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V3.4 - PER Piores Indices (Semi-Trajetória 1)  🆗  |  (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V3.4 - PER Piores Indices (Semi-Trajetória 2)  🆗  |  (Bruno)🆗| (Gabriel)🆗|(Kaio)🆗|(Nicolas)🆗|
+|V4 - PER Ultima Trajetória 🆗  |                      (Bruno)🆗| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
+|V4.1 - PER Melhores Trajetórias 🆗   |                (Bruno)🆗| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
+|V4.2 - PER Piores Trajetórias 🆗 |                    (Bruno)🆗| (Gabriel)🆗|(Kaio)⏳|(Nicolas)⏳|
 
 ## Alteração da Rede com 10 k de episódios
 
-| Versão                            | ⏳       | 🆗         | ⏳        | ⏳        | ⏳        | ⏳       |
-|-----------------------------------|----------|-------------|------------|-----------|------------|----------|
-| Tamanho da Rede                   | 128-128⏳| 64-64🆗    | 32-32⏳   | 16-16⏳   | 8-8⏳     | 4-4⏳    |
-|V1 - DQN                           | (B)⏳    | (G)🆗      |(G)⏳      |(G)⏳|(G)⏳| (B)⏳|
-|V2 - PER (RB)                      | (B)⏳    | (G)🆗      |(G)⏳      |(G)⏳|(G)⏳| (B)⏳|
-|V2 - PER (PRB)                     | (B)⏳    | (G)🆗      |(G)⏳      |(G)⏳|(G)⏳| (B)⏳|
-|V2.1 - PER Média                   | (B)⏳    | (G)🆗      |(G)⏳      |(G)⏳|(G)⏳| (B)⏳|
-|V2.2 - PER Somada                  | (B)⏳    | (G)🆗      |(G)⏳      |(G)⏳|(G)⏳| (B)⏳|
-|V3 - PER Últimos Indice (1 vez)    | (B)⏳    | (G)🆗      |(G)⏳      |(G)⏳|(G)⏳| (B)⏳|
-|V3 - PER Últimos Indice (2 vezes)  | (B)⏳    | (G)🆗      |(G)⏳      |(G)⏳|(G)⏳| (B)⏳|
-|V3.1 - PER Melhores Indices (Max)  | (B)⏳    | (G)🆗      |(G)⏳|(G)⏳|(G)⏳| (B)⏳|
-|V3.2 - PER Melhores Indices (ST 1) | (B)⏳    | (G)🆗      |(G)⏳|(G)⏳|(G)⏳| (B)⏳|
-|V3.2 - PER Melhores Indices (ST 2) | (B)⏳    | (G)🆗      |(G)⏳|(G)⏳|(G)⏳| (B)⏳|
-|V3.3 - PER Piores Indices (Max)    | (B)⏳    | (G)🆗      |(G)⏳|(G)⏳|(G)⏳| (B)⏳|
-|V3.4 - PER Piores Indices (ST 1)   | (B)⏳    | (G)🆗      |(G)⏳|(G)⏳|(G)⏳| (B)⏳|
-|V3.4 - PER Piores Indices (ST 2)   | (B)⏳    | (G)🆗      |(G)⏳|(G)⏳|(G)⏳| (B)⏳|
-|V4 - PER Ultima Trajetória         | (B)⏳    | (G)🆗      |(G)⏳|(G)⏳|(G)⏳| (B)⏳|
-|V4.1 - PER Melhores Trajetórias    | (B)⏳    | (G)🆗      |(G)⏳|(G)⏳|(G)⏳| (B)⏳|
-|V4.2 - PER Piores Trajetórias      | (B)⏳    | (G)🆗      |(G)⏳|(G)⏳|(G)⏳| (B)⏳|
+| Versão                            | ⏳       | 🆗     | ⏳     | ⏳     | ⏳   | ⏳   |
+|-----------------------------------|----------|---------|---------|--------|-------|------|
+| Tamanho da Rede                   | 128-128⏳| 64-64🆗| 32-32⏳| 16-16⏳| 8-8⏳| 4-4⏳|
+|V1 - DQN                           | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)❌|
+|V2 - PER (RB)                      | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)❌|
+|V2 - PER (PRB)                     | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V2.1 - PER Média                   | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V2.2 - PER Somada                  | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V3 - PER Últimos Indice (1 vez)    | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V3 - PER Últimos Indice (2 vezes)  | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V3.1 - PER Melhores Indices (Max)  | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V3.2 - PER Melhores Indices (ST 1) | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V3.2 - PER Melhores Indices (ST 2) | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V3.3 - PER Piores Indices (Max)    | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V3.4 - PER Piores Indices (ST 1)   | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V3.4 - PER Piores Indices (ST 2)   | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V4 - PER Ultima Trajetória         | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V4.1 - PER Melhores Trajetórias    | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
+|V4.2 - PER Piores Trajetórias      | (B)⏳    | (G)🆗  |(G)⏳   |(G)⏳   |(G)⏳ | (B)⏳|
 
 # Canvas dos Resultados
 
