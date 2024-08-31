@@ -1,7 +1,9 @@
 # TRABALHOS FUTUROS
 ## Orientação de Apresentação de Solução:
-1. Criar um do tipo *.ipynb* arquivo na pasta *Soluções* dentro desse diretório;
-2. Usar a seguinte notificação: MS_X (Item X da lista de Melhoria de Simulação) ou NV_X (Item X da lista de Novas Versões);
+1. Criar um arquivo do tipo *.ipynb*  na pasta *Soluções* dentro desse diretório;
+2. Usar a seguinte codificação para o nome do arquivo:
+
+   MS_X (Item X da lista de Melhoria de Simulação) ou NV_X (Item X da lista de Novas Versões);
 ## Melhorias para as Simulações - MS
 1. Nas próximas simulações, adotar a relação 80-20 (Pareto). Pontuação acima de 80% é boa e abaixo de 20% é ruim. Atualmente, usa-se 60-10, mas deveria ser proporcional e complementar, ou seja, 90-10, para evitar muitas "classes".
 2. Colocar tempos em minutos
