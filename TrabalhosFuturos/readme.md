@@ -9,11 +9,11 @@
    Item X. [BRUNO] ✔
    
 ## Melhorias para as Simulações - MS [PRIORIDADE MAIOR]
-1. Nas próximas simulações, adotar a relação 80-20 (Pareto). Pontuação acima de 80% é boa e abaixo de 20% é ruim. Atualmente, usa-se 60-10, mas deveria ser proporcional e complementar, ou seja, 90-10, para evitar muitas "classes".
-2. Colocar tempos em minutos ou adicionar exibição em: tempo foi (X s / X m / X h)
-3. Corrigir cálculo da taxa de sucesso na avaliação
-4. Corrigir exibição de log para exibir a cada 500 episódios sempre
-5. Codificar a data para incluir na planila como data e hora da simulação
+1. Nas próximas simulações, adotar a relação 80-20 (Pareto). Pontuação acima de 80% é boa e abaixo de 20% é ruim. Atualmente, usa-se 60-10, mas deveria ser proporcional e complementar, ou seja, 90-10, para evitar muitas "classes". [BRUNO] ⏳
+2. Colocar tempos em minutos ou adicionar exibição em: tempo foi (X s / X m / X h) [BRUNO] ⏳
+3. Corrigir cálculo da taxa de sucesso na avaliação [BRUNO] ⏳
+4. Corrigir exibição de log para exibir a cada 500 episódios sempre [BRUNO] ⏳
+5. Codificar a data para incluir na planila como data e hora da simulação [BRUNO] ⏳
 6. Melhor atualizar só uma vez e limpar a lista, pois manter ela, faz com que a otimização “cegue” e passe a dar prioridade só para aquelas experiências e deixe de ver experiências com mais necessidade de melhora;
 7. Criar uma função que verifica todos os resultados carregados e checa se dentre eles existem algum identico a outro, comparando um a um. Se tiver, indicar quais são os pares de iguais ( REF e COPIA 1, REF 3 e COPIA 7 etc) ou exibir uma  mensagem caso não tenha (SEM RESULTADOS IDÊNTICOS);
 8. Carregar e salvar diretamente do GITHUB. [BRUNO] ⏳
