@@ -4,6 +4,9 @@
 2. Usar a seguinte codificação para o nome do arquivo:
 
    MS_X (Item X da lista de Melhoria de Simulação) ou NV_X (Item X da lista de Novas Versões);
+3. Marcar conclusão da tarefa na lista e colocar seu nome na lista no final da descrição do item da lista, assim:
+
+   Item X. [BRUNO] ✔
 ## Melhorias para as Simulações - MS
 1. Nas próximas simulações, adotar a relação 80-20 (Pareto). Pontuação acima de 80% é boa e abaixo de 20% é ruim. Atualmente, usa-se 60-10, mas deveria ser proporcional e complementar, ou seja, 90-10, para evitar muitas "classes".
 2. Colocar tempos em minutos
