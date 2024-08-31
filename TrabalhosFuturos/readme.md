@@ -16,6 +16,7 @@
 5. Codificar a data para incluir na planila como data e hora da simulação
 6. Melhor atualizar só uma vez e limpar a lista, pois manter ela, faz com que a otimização “cegue” e passe a dar prioridade só para aquelas experiências e deixe de ver experiências com mais necessidade de melhora;
 7. Criar uma função que verifica todos os resultados carregados e checa se dentre eles existem algum identico a outro, comparando um a um. Se tiver, indicar quais são os pares de iguais ( REF e COPIA 1, REF 3 e COPIA 7 etc) ou exibir uma  mensagem caso não tenha (SEM RESULTADOS IDÊNTICOS);
+8. Carregar e salvar diretamente do GITHUB. [BRUNO] ⏳
 
 ## Ideias de Novas Versões - NV [PRIORIDADE MENOR]
 1. PER Buffer Duplo: começa usando um buffer e gera outro buffer com as melhores/piores trajetórias(experiências), após 50% do treinamento migra para o outro buffer e continua armanzenando nos dois buffer, um com as trajetórias normais e outro só com as melhores/piores trajetórias.
