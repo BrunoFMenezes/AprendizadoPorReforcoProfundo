@@ -7,12 +7,14 @@
 3. Marcar conclusão da tarefa na lista e colocar seu nome na lista no final da descrição do item da lista, assim:
 
    Item X. [BRUNO] ✔
+   
 ## Melhorias para as Simulações - MS
 1. Nas próximas simulações, adotar a relação 80-20 (Pareto). Pontuação acima de 80% é boa e abaixo de 20% é ruim. Atualmente, usa-se 60-10, mas deveria ser proporcional e complementar, ou seja, 90-10, para evitar muitas "classes".
-2. Colocar tempos em minutos
-3. Corrigir cálculo da taxa de sucesso
+2. Colocar tempos em minutos ou adicionar exibição em: tempo foi (X s / X m / X h)
+3. Corrigir cálculo da taxa de sucesso na avaliação
 4. Corrigir exibição de log para exibir a cada 500 episódios sempre
 5. Codificar a data para incluir na planila como data e hora da simulação
+
 ## Ideias de Novas Versões - NV
 1. PER Buffer Duplo: começa usando um buffer e gera outro buffer com as melhores/piores trajetórias(experiências), após 50% do treinamento migra para o outro buffer e continua armanzenando nos dois buffer, um com as trajetórias normais e outro só com as melhores/piores trajetórias.
 2. Compartilhamento de aprendizado. Ambiente multi agente compartilhando informações para evoluir mais rápido. Esse princípio pode ser aplicado a carros autônomos ou aplicativos de geração de rotas como o Goggle Maps e Waze.
