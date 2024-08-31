@@ -8,14 +8,15 @@
 
    Item X. [BRUNO] ✔
    
-## Melhorias para as Simulações - MS
+## Melhorias para as Simulações - MS [PRIORIDADE MAIOR]
 1. Nas próximas simulações, adotar a relação 80-20 (Pareto). Pontuação acima de 80% é boa e abaixo de 20% é ruim. Atualmente, usa-se 60-10, mas deveria ser proporcional e complementar, ou seja, 90-10, para evitar muitas "classes".
 2. Colocar tempos em minutos ou adicionar exibição em: tempo foi (X s / X m / X h)
 3. Corrigir cálculo da taxa de sucesso na avaliação
 4. Corrigir exibição de log para exibir a cada 500 episódios sempre
 5. Codificar a data para incluir na planila como data e hora da simulação
+6. Melhor atualizar só uma vez e limpar a lista, pois manter ela, faz com que a otimização “cegue” e passe a dar prioridade só para aquelas experiências e deixe de ver experiências com mais necessidade de melhora
 
-## Ideias de Novas Versões - NV
+## Ideias de Novas Versões - NV [PRIORIDADE MENOR]
 1. PER Buffer Duplo: começa usando um buffer e gera outro buffer com as melhores/piores trajetórias(experiências), após 50% do treinamento migra para o outro buffer e continua armanzenando nos dois buffer, um com as trajetórias normais e outro só com as melhores/piores trajetórias.
 2. Compartilhamento de aprendizado. Ambiente multi agente compartilhando informações para evoluir mais rápido. Esse princípio pode ser aplicado a carros autônomos ou aplicativos de geração de rotas como o Goggle Maps e Waze.
 3. Bias Correction para corrigir ainda mais a superestimação de valores Q. Uso de amostragem uniforme com probabilidade compensada.
@@ -48,3 +49,5 @@
 30. Salvar no buffer o episódio completo, ao invés de salvar por experiência e quando for pegar uma amostra, será uma amostra de episódio e não de um número X de experiência
 31. Criar um buffer para episódios de 500 pontos e um para todos os episódios, colocar um condicional que escolhe qual buffer vai usar com base em um tamanho mínimo.
 32. Buffer que remove amostras idênticas.
+33. IA + Aprendizado por Reforço Profundo 
+Faz o treinamento e define uma nota de desempenho. A medida que interage na avaliação, verifica se os parâmetros precisa de ajustes, daí faz os ajustes e verifica com base no conhecimento já armazenado se os ajuste melhoraram a nota de desempenho, caso contrário mantém os parâmetros atuais e passar por uma nova avaliação em condições diferentes.
