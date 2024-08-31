@@ -1,11 +1,14 @@
 # TRABALHOS FUTUROS
-## Melhorias para as Simulações
+## Orientação de Apresentação de Solução:
+1. Criar um do tipo *.ipynb* arquivo na pasta *Soluções* dentro desse diretório;
+2. Usar a seguinte notificação: MS_X (Item X da lista de Melhoria de Simulação) ou NV_X (Item X da lista de Novas Versões);
+## Melhorias para as Simulações - MS
 1. Nas próximas simulações, adotar a relação 80-20 (Pareto). Pontuação acima de 80% é boa e abaixo de 20% é ruim. Atualmente, usa-se 60-10, mas deveria ser proporcional e complementar, ou seja, 90-10, para evitar muitas "classes".
 2. Colocar tempos em minutos
 3. Corrigir cálculo da taxa de sucesso
 4. Corrigir exibição de log para exibir a cada 500 episódios sempre
 5. Codificar a data para incluir na planila como data e hora da simulação
-## Ideias de Novas Versões
+## Ideias de Novas Versões - NV
 1. PER Buffer Duplo: começa usando um buffer e gera outro buffer com as melhores/piores trajetórias(experiências), após 50% do treinamento migra para o outro buffer e continua armanzenando nos dois buffer, um com as trajetórias normais e outro só com as melhores/piores trajetórias.
 2. Compartilhamento de aprendizado. Ambiente multi agente compartilhando informações para evoluir mais rápido. Esse princípio pode ser aplicado a carros autônomos ou aplicativos de geração de rotas como o Goggle Maps e Waze.
 3. Bias Correction para corrigir ainda mais a superestimação de valores Q. Uso de amostragem uniforme com probabilidade compensada.
