@@ -14,16 +14,16 @@
 3. Corrigir cálculo da taxa de sucesso na avaliação [BRUNO] ⏳
 4. Corrigir exibição de log para exibir a cada 500 episódios sempre [BRUNO] ⏳
 5. Codificar a data para incluir na planila como data e hora da simulação [BRUNO] ⏳
-6. Melhor atualizar só uma vez e limpar a lista, pois manter ela, faz com que a otimização “cegue” e passe a dar prioridade só para aquelas experiências e deixe de ver experiências com mais necessidade de melhora;
-7. Criar uma função que verifica todos os resultados carregados e checa se dentre eles existem algum identico a outro, comparando um a um. Se tiver, indicar quais são os pares de iguais ( REF e COPIA 1, REF 3 e COPIA 7 etc) ou exibir uma  mensagem caso não tenha (SEM RESULTADOS IDÊNTICOS);
+6. Melhor atualizar só uma vez e limpar a lista, pois manter ela, faz com que a otimização “cegue” e passe a dar prioridade só para aquelas experiências e deixe de ver experiências com mais necessidade de melhora;  [GABRIEL] ⏳
+7. Criar uma função que verifica todos os resultados carregados e checa se dentre eles existem algum identico a outro, comparando um a um. Se tiver, indicar quais são os pares de iguais ( REF e COPIA 1, REF 3 e COPIA 7 etc) ou exibir uma  mensagem caso não tenha (SEM RESULTADOS IDÊNTICOS); [GABRIEL] ⏳
 8. Carregar e salvar diretamente do GITHUB. [BRUNO] ⏳
 9. Adicionar relações estatisticas das simulações ( desvio padrão, mediana etc);
 10. Analisar Complexidade do Algoritmo
 11. Análise Temporal das Simulações
-12. Salvar na planilha ("txt") os parêmetros da rede neural, em várias situações ( quando atinge 500 pts ou no final do treinamento)
+12. Salvar na planilha ("txt") os parêmetros da rede neural, em várias situações ( quando atinge 500 pts ou no final do treinamento) [GABRIEL] ⏳
 
 ## Ideias de Novas Versões - NV [PRIORIDADE MENOR]
-1. PER Buffer Duplo: começa usando um buffer e gera outro buffer com as melhores/piores trajetórias(experiências), após 50% do treinamento migra para o outro buffer e continua armanzenando nos dois buffer, um com as trajetórias normais e outro só com as melhores/piores trajetórias.
+1. PER Buffer Duplo: começa usando um buffer e gera outro buffer com as melhores/piores trajetórias(experiências), após 50% do treinamento migra para o outro buffer e continua armanzenando nos dois buffer, um com as trajetórias normais e outro só com as melhores/piores trajetórias. [GABRIEL] ⏳
 2. Compartilhamento de aprendizado. Ambiente multi agente compartilhando informações para evoluir mais rápido. Esse princípio pode ser aplicado a carros autônomos ou aplicativos de geração de rotas como o Goggle Maps e Waze.
 3. Bias Correction para corrigir ainda mais a superestimação de valores Q. Uso de amostragem uniforme com probabilidade compensada.
 4. Exploração baseada em incertezas;
