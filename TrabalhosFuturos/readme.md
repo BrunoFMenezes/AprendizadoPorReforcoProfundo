@@ -10,7 +10,7 @@
    
 ## Melhorias para as Simulações - MS [PRIORIDADE MAIOR]
 1. Nas próximas simulações, adotar a relação 80-20 (Pareto). Pontuação acima de 80% é boa e abaixo de 20% é ruim. Atualmente, usa-se 60-10, mas deveria ser proporcional e complementar, ou seja, 90-10, para evitar muitas "classes". [BRUNO] ⏳
-2. Colocar tempos em minutos ou adicionar exibição em: tempo foi (X s / X m / X h) [BRUNO] ⏳
+2. Colocar tempos em minutos ou adicionar exibição em: tempo foi (X s / X m / X h) [BRUNO] ✔
 3. Corrigir cálculo da taxa de sucesso na avaliação [BRUNO] ⏳
 4. Corrigir exibição de log para exibir a cada 500 episódios sempre [BRUNO] ⏳
 5. Codificar a data para incluir na planila como data e hora da simulação [BRUNO] ⏳
