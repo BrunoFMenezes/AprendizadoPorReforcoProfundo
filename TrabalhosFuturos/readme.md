@@ -15,7 +15,7 @@
 4. Corrigir exibição de log para exibir a cada 500 episódios sempre [BRUNO] ⏳
 5. Codificar a data para incluir na planila como data e hora da simulação [BRUNO] ⏳
 6. Melhor atualizar só uma vez e limpar a lista, pois manter ela, faz com que a otimização “cegue” e passe a dar prioridade só para aquelas experiências e deixe de ver experiências com mais necessidade de melhora;  [GABRIEL] ⏳
-7. Criar uma função que verifica todos os resultados carregados e checa se dentre eles existem algum identico a outro, comparando um a um. Se tiver, indicar quais são os pares de iguais ( REF e COPIA 1, REF 3 e COPIA 7 etc) ou exibir uma  mensagem caso não tenha (SEM RESULTADOS IDÊNTICOS); [GABRIEL] ⏳
+7. Criar uma função que verifica todos os resultados carregados e checa se dentre eles existem algum identico a outro, comparando um a um. Se tiver, indicar quais são os pares de iguais ( REF e COPIA 1, REF 3 e COPIA 7 etc) ou exibir uma  mensagem caso não tenha (SEM RESULTADOS IDÊNTICOS); [GABRIEL] ✔
 8. Carregar e salvar diretamente do GITHUB. [BRUNO] ⏳
 9. Adicionar relações estatisticas das simulações ( desvio padrão, mediana etc);
 10. Analisar Complexidade do Algoritmo
