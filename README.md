@@ -1,4 +1,8 @@
 # Aprendizado Por Reforço Profundo
+
+![image](https://github.com/user-attachments/assets/5e46fa52-84a3-4e58-8950-cb785c852e66)
+
+
 Este repositório foi desenvolvido para auxiliar na pesquisa sobre Aprendizado por Reforço Profundo do Grupo de Pesquisa em Automação e Robótica [(GPAR)](https://gpar.ufc.br/) da Universidade Federal do Ceará [(UFC)](https://www.ufc.br/).
 
 Equipe Responsável:
