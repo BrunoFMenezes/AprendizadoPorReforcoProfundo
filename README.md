@@ -1,6 +1,7 @@
 # Aprendizado Por Reforço Profundo
 
 ![image](https://github.com/user-attachments/assets/5e46fa52-84a3-4e58-8950-cb785c852e66)
+Fonte: https://paulovasconcellos.com.br/explicando-deep-reinforcement-learning-com-super-mario-ao-inv%C3%A9s-de-matem%C3%A1tica-4c77392cc733
 
 
 Este repositório foi desenvolvido para auxiliar na pesquisa sobre Aprendizado por Reforço Profundo do Grupo de Pesquisa em Automação e Robótica [(GPAR)](https://gpar.ufc.br/) da Universidade Federal do Ceará [(UFC)](https://www.ufc.br/).
