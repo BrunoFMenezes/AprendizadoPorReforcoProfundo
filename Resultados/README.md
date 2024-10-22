@@ -70,3 +70,5 @@ https://www.canva.com/design/DAGGtRS_IIk/dl3Y29Rsqo-hhn7ZD6StJA/edit?utm_content
 
 ## Site para baixar pastas do GitHub
 https://downgit.github.io/
+https://downgit.evecalm.com/#/home
+http://mew.js.cool/DownGit/#/home
